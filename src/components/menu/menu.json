@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo_text": {
+      "type": "text",
+      "required": true
+    },
+    "menu_link": {
+      "displayName": "menu-link",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link"
+    },
+    "logo_link": {
+      "type": "string",
+      "required": true
+    },
+    "new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
