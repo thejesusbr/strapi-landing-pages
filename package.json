@@ -1,7 +1,7 @@
 {
   "name": "strapi-landing-pages",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Landing page built for a React Course",
   "scripts": {
     "develop": "strapi develop",
